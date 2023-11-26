@@ -3,7 +3,7 @@
 <html lang="en">
 <head><meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Xác suất thống kê</title><script type="text/javascript" src="http://me.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=gdYENc5aqZseHJcA1jERm2KijA5bTd2ZLgkqfIe9evQADHw7rIu9H8d0PmSULxotbFNfLbr6CIbp9vVHYyssCGwWVWBXqSKE6AGhaoRPYpIKwEYskJPLXPICtFZX3HuoEM1-Sf4ILh3VNMdVb0qptu8Q7W8q1jtuqf3rFeoHRdI" charset="UTF-8"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>Xác suất thống kê</title><script type="text/javascript" src="http://me.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=p3N-YiFtPZVYe6PnD7z9GiLCSbmjfLqYKdj-maON7AHzttdNNBeWmk0OwnQEvrzXeKND2E363rEzO13-bgzwMMLUPtjBfoxQo_ddB_jpIi6z2Ohx55of7W1RGa1GqG1AIk55ereRYSMpr40u5Gy1D4JZxnk4IXqh4ZRbKS7oAs0" charset="UTF-8"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <style type="text/css">
     pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
@@ -10717,8 +10717,8 @@ Lithography    11.139865    19.243554
 <span class="n">TSS_general</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">sum</span><span class="p">((</span><span class="nf">mean</span><span class="p">(</span><span class="n">modified_data</span><span class="o">$</span><span class="n">Recommended_Customer_Price</span><span class="p">)</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">modified_data</span><span class="o">$</span><span class="n">Recommended_Customer_Price</span><span class="p">)</span><span class="o">^</span><span class="m">2</span><span class="p">)</span>
 <span class="n">R_general</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="p">(</span><span class="n">RSS_general</span><span class="o">/</span><span class="n">TSS_general</span><span class="p">)</span>
 
-<span class="nf">print</span><span class="p">(</span><span class="nf">paste</span><span class="p">(</span><span class="s">"Giá trị R mẫu: "</span><span class="p">,</span><span class="w"> </span><span class="n">R_constructing</span><span class="p">))</span>
-<span class="nf">print</span><span class="p">(</span><span class="nf">paste</span><span class="p">(</span><span class="s">"Giá trị R tổng thể: "</span><span class="p">,</span><span class="w"> </span><span class="n">R_general</span><span class="p">))</span>
+<span class="nf">print</span><span class="p">(</span><span class="nf">paste</span><span class="p">(</span><span class="s">"Giá trị R squared mẫu: "</span><span class="p">,</span><span class="w"> </span><span class="n">R_constructing</span><span class="p">))</span>
+<span class="nf">print</span><span class="p">(</span><span class="nf">paste</span><span class="p">(</span><span class="s">"Giá trị R squared tổng thể: "</span><span class="p">,</span><span class="w"> </span><span class="n">R_general</span><span class="p">))</span>
 
 <span class="c1">#So sanh</span>
 <span class="nf">print</span><span class="p">(</span><span class="nf">paste</span><span class="p">(</span><span class="s">"Ta thấy R_constructing và R_general không khác biệt quá lớn nên ta có thể coi mô hình này có ý nghĩa về mặt thống kê"</span><span class="p">))</span>
@@ -10739,8 +10739,8 @@ Lithography    11.139865    19.243554
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>[1] "Số dữ liệu đem xây dựng mô hình là 849"
-[1] "Giá trị R mẫu:  0.644250883263575"
-[1] "Giá trị R tổng thể:  0.638309714157718"
+[1] "Giá trị R squared mẫu:  0.644250883263575"
+[1] "Giá trị R squared tổng thể:  0.638309714157718"
 [1] "Ta thấy R_constructing và R_general không khác biệt quá lớn nên ta có thể coi mô hình này có ý nghĩa về mặt thống kê"
 </pre>
 </div>
