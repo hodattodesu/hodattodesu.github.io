@@ -19,7 +19,6 @@ var keyWord = [];
 var colorCode = ['rgb(41, 128, 185)', 
                  '#EC7063', 
                  'rgb(230, 126, 34)', 
-                 'rgb(231, 76, 60)', 
                  'rgb(52, 73, 94 )',
                  '#5B2C6F',
                  '#A569BD',
@@ -114,7 +113,7 @@ function loadWord(oldword, word) {
       divN.className = "square default";
       document.getElementById(r).appendChild(divN);
       document.getElementById(r).firstElementChild.innerHTML = word[0];
-      document.getElementById(r).firstElementChild.style.color = colorCode[i];
+      document.getElementById(r).firstElementChild.style.color = colorCode[0];
     }
   }
 }
