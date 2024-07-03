@@ -175,6 +175,8 @@ var playagain = function(){
   guessTime = 0;
   guessCorrect = false;
   wordStore = [];
+  isPlaying = 0;
+  isSFXPlaying = 1;
   document.getElementById('msgBox').innerHTML="Guess the Word!"; // main message
   document.getElementById('smallMsg').innerHTML = "Green = correct letter, Yellow = wrong place"; // small message
   document.getElementById('guess').readOnly = false;
