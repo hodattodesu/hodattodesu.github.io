@@ -190,6 +190,9 @@ var playagain = function(){
   document.getElementById('countWords').innerHTML = 0;
   document.getElementById('gamePlay').style.visibility = "hidden";
   document.getElementById('mute').style.visibility = "hidden";
+  document.getElementById('unmute').style.visibility = "hidden";
+  document.getElementById('muteSFX').style.visibility = "hidden";
+  document.getElementById('unmuteSFX').style.visibility = "hidden";
   document.getElementById('inputWord').style.visibility = "visible";
   valueRow = 1;
   setup();
