@@ -493,7 +493,7 @@ color: aliceblue;
 }
 
 #shh{
-  position: absolute;
+  position:fixed;
   background-image: url('shh.gif');
   background-repeat: no-repeat;
   background-position: center;
